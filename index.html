@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>tim</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body id="body">
+    <a href="#body"><img src="/images/logo.png" alt="logo" class="logo"></a>
+    <div class="navigation-links"></div>     
+    <div class="aside-scrolling">
+        <aside class="scroll-bar">
+            <div class="scrolling"></div>
+            <p class="scroll-text">SCROLL DOWN</p>
+        </aside>
+    </div>   
+    <div class="wrapper grid">
+        <button  class="mobile-toggle-btn" aria-controls="menu-list menu" aria-expanded="false">
+        </button>
+        <nav class="menu flex" data-visible="false">
+            <ul class="flex">
+                <li class="link-items"><a href="#about" class="links">About</a></li>
+
+                <li class="link-items"><a href="#knowledge" class="links">Portfolio</a></li>
+
+                <li class="link-items"><a href="#portfolio" class="links">Knowledge</a></li>
+
+                <li class="link-items"><a href="#experience" class="links">Experience</a></li>
+
+                <li class="link-items"><a href="#contact" class="links">Contact</a></li>
+            </ul>
+        </nav>
+        <header class="frontpage__content flex">
+            <h1>Hi, I'm Tim.</h1>
+            <p>Frontend Developer <span>..soon..</span></p>
+            <img src="/images/tim.png" alt="Avatar" class="avatar">
+        </header>
+        <main id="about" class="flex">
+            <h2 class="header-text">About</h2>
+            <h1 class="subheader-text">My name is Tim</h1>
+            <p class="paragraph-text">I'm a 31 year old frontend developer student. Living in Karlstad with my daughter and girlfriend. Fulltime geek and gamer.</p>
+            <p class="paragraph-text">Having fun while slaying dragons with friends is one of the things I enjoy in life.</p>
+            <lottie-player class="sword" src="https://assets4.lottiefiles.com/packages/lf20_rqkbfshc.json"  background="transparent"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        </main>    
+        <main id="knowledge" class="flex">
+            <section>
+            <h2 class="header-text">Career</h2>
+            <h1 class="subheader-text">What can I do?</h1>
+                <p class="paragraph-text">I'm currently in the middle of a 2 year frontend developer program at Karlstad Folkuniverstet.</p>
+                <p class="paragraph-text">Knowledge that I have (or will get during the program)</p>
+                <ul>
+                    <li class="list-items">UX/UI Design</li>
+                    <li class="list-items">Figma</li>
+                    <li class="list-items">HTML</li>
+                    <li class="list-items">CSS</li>
+                    <li class="list-items">JavaScript</li>
+                    <li class="list-items">React</li>
+                    <li class="list-items">Agile</li>
+                </ul>
+            </section>
+            <figure></figure>
+        </main>
+        <main id="portfolio" class="flex">
+            <section>
+                <h2 class="header-text">Portfolio</h2>
+                <h1 class="subheader-text">Stuff I've done</h1>
+                <section class="project-cards flex grid">
+                    <article><p><mark>Nothing...</mark></p></article>
+
+                    <article><p><mark>I suck</mark></p></article>
+
+                    <article><p><mark>pls help</mark></p></article>   
+
+                    <article><p><mark>still nothing</mark></p></article>
+
+                    <article><p><mark>useless</mark> </p></article>
+
+                    <article><p><mark>&#128079; </mark></p></article>            
+                </section>
+            </section>
+        </main>
+        <main id="experience">
+            <section>
+                <h2 class="header-text">Experience</h2>
+                <div class="exp flex">
+                    <section class="work">
+                        <article>
+                            <h1 class="subheader-text">Work</h1>
+                            <h3 class="paragraph-text">Pharmacist</h3>
+                            <p class="paragraph-year">2016 - 2021</p>
+                        </article>
+                        </article>
+                            <h3 class="paragraph-text">Metal Sheet Worker</h3>
+                            <p class="paragraph-year">2009 - 2012 Deje Husplåt</p>
+                        </article>
+                    </section>
+                    <section class="school">
+                        <article>
+                            <h1 class="subheader-text">Education</h1>
+                            <h3 class="paragraph-text">Pharmacist - Karlstad University</h3>
+                        </article>
+                        <article>
+                            <p class="paragraph-year">2013 - 2016</p>
+                            <h3 class="paragraph-text">Metal Sheet Worker</h3>
+                            <p class="paragraph-year">Fall 2009 Nobel Gymnasiet</p>
+                        </article>
+                    </section>
+                    <!-- <section class="book">
+                        <p class="study"></p>
+                    </section>                    -->
+                </div>
+            </section>
+        </main>
+        <main id="contact">
+            <section> 
+                <header class="conact-header">
+                    <h2 class="header-text">Contact</h2>
+                    <h1 class="subheader-text">Drop a message</h1>
+                    <p class="paragraph-text">Just to say hi, send a <span>meme</span> or discuss opportunities!</p>
+                </header>            
+                <article class="input-boxes flex">
+                    <p class="contact-text">Name</p>
+                    <input type="text">
+                    <p class="contact-text">E-mail</p>
+                    <input type="email">
+                    <p class="contact-text">Message</p>
+                    <textarea rows="20" cols="50" class="message" placeholder="Meme?"></textarea>
+                    <a href="mailto:hejsanhoppsan@nejtack.nu"><button class="btn-send">Send message</button></a>
+                </article>
+            </section>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+</html>
