@@ -524,7 +524,6 @@ textarea {
 }
 
 /* footer */
-
 .footer__content {
     margin-top: 10vh;
     height: 20%;
@@ -533,7 +532,6 @@ textarea {
     background: rgb(31, 34, 34);
     color:rgb(122, 106, 106);
     box-shadow: 0px -5px 20px rgb(31, 34, 34);
-
 }
 
 .footer__content span {
