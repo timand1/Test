@@ -92,9 +92,8 @@ p {
     "know know know know know know"
     "port port port port port port"
     "xp xp xp xp xp xp"
-    "contact contact contact contact contact contact"
-    "footer footer footer footer footer footer";
-    row-gap: 20vh;
+    "contact contact contact contact contact contact";
+    row-gap: 15vh;
 }
 
 /* Navigation */
@@ -113,7 +112,7 @@ p {
 .menu {
     grid-area: nav;
     position: fixed;
-    top: 0.5rem;
+    top: 1rem;
     right: 5vw;
     background: rgba(216, 207, 207, 0.178);
     backdrop-filter: blur(1rem);   
@@ -527,5 +526,23 @@ textarea {
 /* footer */
 
 footer {
-    grid-area: footer;
+    margin-top: 10vh;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(31, 34, 34);
+    color:rgb(122, 106, 106);
+    box-shadow: 0px -5px 20px rgb(31, 34, 34);
+
+}
+
+footer span {
+    font-size: 2.5rem;
+    padding: 4rem;
+    font-weight: 900;
+    color: rgb(28, 66, 92);
+}
+
+footer a {
+    color:rgb(122, 106, 106)
 }
