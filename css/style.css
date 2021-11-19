@@ -345,6 +345,7 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0;
 }
 
 @media (max-width: 900px) {
@@ -401,22 +402,22 @@ p {
 
     .project-cards article:nth-child(even) {
         transform:rotateY(-30deg);
-        transition: 350ms ease-out;
+        transition: 450ms ease-out;
     }
 
     .project-cards article:nth-child(even):hover {
         transform:rotateY(0deg);
-        transition: 350ms ease-out;
+        transition: 450ms ease-out;
     }
 
     .project-cards article:nth-child(odd) {
         transform:rotateY(30deg);
-        transition: 350ms ease-out;
+        transition: 450ms ease-out;
     }
 
     .project-cards article:nth-child(odd):hover {
         transform:rotateY(0deg);
-        transition: 350ms ease-out;
+        transition: 450ms ease-out;
     }
 }
 
