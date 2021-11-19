@@ -21,7 +21,7 @@
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(255, 165, 0) }
+    50% { border-color: #B34B25; }
 }
 
 @keyframes slideLeft {
@@ -42,7 +42,7 @@ body {
     background-image: url("../images/back.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color:rgb(28, 66, 92);
+    background-color:#1C425C;
     overflow-x: hidden;
 }
 
@@ -69,7 +69,7 @@ h1 {
 
 h2 {
     font-size: 2.2rem;
-    background: -webkit-linear-gradient(rgb(43, 41, 41), rgb(158, 31, 31));
+    background: -webkit-linear-gradient(#372F2F, #832121);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -104,7 +104,7 @@ p {
     top: 0;
     height: 100px;
     width: 100%;
-    background: rgb(28, 66, 92);
+    background: #1c425c;
     z-index: 100;
     /* box-shadow: 0px 4px 20px #5574AF; */
 }
@@ -114,7 +114,7 @@ p {
     position: fixed;
     top: 1rem;
     right: 5vw;
-    background: rgba(216, 207, 207, 0.178);
+    background: #d8cfcf1e;
     backdrop-filter: blur(1rem);   
     border-radius: 0.5rem;
     z-index: 101;
@@ -164,7 +164,7 @@ p {
         opacity: 0;
         width: 2px;
         height: 500px;
-        background: rgb(214, 188, 188);
+        background: #d6bcbc;
         margin-left: 2rem;
         animation: hidden 1s linear;
         animation-delay: 7.5s;
@@ -187,7 +187,7 @@ p {
         font-size: 24px;
         letter-spacing: 6px;
         line-height: 40px;
-        color: rgb(214, 188, 188);
+        color: #d6bcbc;
         transform: rotate(90deg);
     }
 }
@@ -207,7 +207,7 @@ p {
 
     .menu .link-items .links {
         font-size: 1.3rem;
-        color: rgb(44, 41, 41);
+        color: #2c2929;
     }
 
     .menu {
@@ -215,7 +215,7 @@ p {
         align-items: center;
         top: 0;
         inset: 0 0 0 30%;
-        background: rgba(216, 198, 198, 0.13);
+        background: #d8c6c627;
         backdrop-filter: blur(2rem);  
         z-index: 1000;
         transform: translateX(100%);
@@ -269,7 +269,7 @@ p {
 
 .frontpage__content p {
     font-size: 2rem;
-    border-left: 10px solid rgb(180, 75, 37);    
+    border-left: 10px solid #B34B25;    
     padding: 2rem;
     opacity: 0;
     transform: translateX(100%);
@@ -361,8 +361,8 @@ p {
 
 
 #portfolio mark {
-    background: rgb(47, 79, 79);
-    color:rgb(214, 188, 188);
+    background: #2f4f4f;
+    color:#d6bcbc;
     padding: 0.5rem 1rem;
     margin: 1rem;
     border-top-left-radius: 1rem;
@@ -386,7 +386,7 @@ p {
 .project-cards article {
     max-width: 400px;
     min-height: 350px;
-    border: 0.2rem solid rgb(47, 79, 79);
+    border: 0.2rem solid #2f4f4f;
     border-radius: 1rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -474,7 +474,7 @@ p {
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 900;
-    color: rgb(114, 28, 71);
+    color: #721c47;
 }
 
 .input-boxes {
@@ -512,10 +512,10 @@ textarea {
     padding: 1rem 2rem;
     border-radius: 2rem;
     border: none;    
-    background: linear-gradient(to right, rgb(28, 66, 92) 50%, rgb(53, 11, 20) 50%);
+    background: linear-gradient(to right, #1c425c 50%, #350b14 50%);
     background-size: 200% 100%;
     background-position: right bottom;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px #00000025;
     transition: all .5s ease-out;
   }
   
@@ -531,18 +531,18 @@ textarea {
     align-items: center;
     background: rgb(31, 34, 34);
     color:rgb(122, 106, 106);
-    box-shadow: 0px -5px 20px rgb(31, 34, 34);
+    box-shadow: 0px -5px 20px #1f2222;
 }
 
 .footer__content span {
     font-size: 2.5rem;
     padding: 4rem;
     font-weight: 900;
-    color: rgb(28, 66, 92);
+    color: #1c425c;
 }
 
 .footer__content a {
-    color:rgb(122, 106, 106)
+    color:#7a6a6a;
 }
 
 @media (max-width: 35em) {
