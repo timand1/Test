@@ -39,7 +39,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-image: url("/images/back.png");
+    background-image: url("images/back.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color:rgb(28, 66, 92);
@@ -237,12 +237,12 @@ p {
         border: none;
         background-color: transparent;
         height: 2rem;
-        background-image: url("/images/hamburger.png");
+        background-image: url("images/hamburger.png");
         background-repeat: no-repeat;
     }
 
     .mobile-toggle-btn[aria-expanded="true"] {
-        background-image: url("/images/close.png");
+        background-image: url("images/close.png");
     }
 }
 
@@ -422,28 +422,28 @@ p {
 }
 
 .project-cards article:first-child {
-    background-image: url("/images/FU.jpg");       
+    background-image: url("images/FU.jpg");       
 }
 
 .project-cards article:nth-child(2) {
-    background-image: url("/images/soon.jpg");
+    background-image: url("images/soon.jpg");
 }
 
 .project-cards article:nth-child(3) {
-    background-image: url("/images/harold-header.jpg");
+    background-image: url("images/harold-header.jpg");
 
 }
 
 .project-cards article:nth-child(4) {
-    background-image: url("/images/harold.jpg");
+    background-image: url("images/harold.jpg");
 }
 
 .project-cards article:nth-child(5) {
-    background-image: url("/images/soon.jpg");
+    background-image: url("images/soon.jpg");
 }
 
 .project-cards article:last-child {
-    background-image: url("/images/ada.jpg");
+    background-image: url("images/ada.jpg");
 }
 
 /* Experience */
