@@ -525,7 +525,7 @@ textarea {
 
 /* footer */
 
-footer {
+.footer__content {
     margin-top: 10vh;
     height: 20%;
     justify-content: center;
@@ -536,13 +536,13 @@ footer {
 
 }
 
-footer span {
+.footer__content span {
     font-size: 2.5rem;
     padding: 4rem;
     font-weight: 900;
     color: rgb(28, 66, 92);
 }
 
-footer a {
+.footer__content a {
     color:rgb(122, 106, 106)
 }
