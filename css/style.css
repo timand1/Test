@@ -21,7 +21,7 @@
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange }
+    50% { border-color: rgb(255, 165, 0) }
 }
 
 @keyframes slideLeft {
@@ -302,7 +302,7 @@ p {
 
 #about, #portfolio, #contact {
     padding: 2rem;
-    background: steelblue;
+    background: rgb(70, 130, 180);
     /* border-radius: 20px; */
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
@@ -310,7 +310,7 @@ p {
 
 #knowledge,#experience {
     padding: 2rem;
-    background: rosybrown;
+    background: rgb(188, 143, 143);
     border-top-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
@@ -361,7 +361,7 @@ p {
 
 
 #portfolio mark {
-    background: darkslategrey;
+    background: rgb(47, 79, 79);
     color:rgb(214, 188, 188);
     padding: 0.5rem 1rem;
     margin: 1rem;
@@ -386,7 +386,7 @@ p {
 .project-cards article {
     max-width: 400px;
     min-height: 350px;
-    border: 0.2rem solid darkslategrey;
+    border: 0.2rem solid rgb(47, 79, 79);
     border-radius: 1rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -543,4 +543,18 @@ textarea {
 
 .footer__content a {
     color:rgb(122, 106, 106)
+}
+
+@media (max-width: 35em) {
+    .footer__content {        
+        padding: 0 1rem;
+    }
+
+    .footer__content p {
+        font-size: 1rem;
+    }
+
+    .footer__content span {
+        padding: 1rem;
+    }
 }
