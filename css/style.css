@@ -40,7 +40,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    background-image: url("../images/back.png");
+    /* background-image: url("../images/back.png"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-color:#1C425C;
@@ -56,6 +56,13 @@ body {
 .flex {
     display: flex;
     gap: var(--gap, 1rem);
+}
+
+svg {
+    display: none;
+    position: absolute;
+    top:0;
+    width: 100%;
 }
 
 .grid {
@@ -75,7 +82,7 @@ h2 {
     -webkit-text-fill-color: transparent;
 }
 
-.kek {
+.effect--text {
     box-shadow:
         27.4px 24.1px 0px -17px #1C425C,
         -27.4px -24.1px 0px -17px #1C425C,
@@ -407,7 +414,18 @@ textarea {
 /* Media Queries */
 
 /* Mobile */
-@media screen and (max-width: 35em)  {
+@media screen and (max-width: 35em)  {    
+    .wrapper {
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "."
+        "front"
+        "about"
+        "know"
+        "port"
+        "xp"
+        "contact";
+    }
     .navigation-links {
         display: block;
     }
@@ -500,6 +518,10 @@ textarea {
 
 /* Desktop only */
 @media screen and (min-width: 35em) {
+    svg {
+        display: block;
+    }
+
     .aside-scrolling {
         display: block;
         position: absolute;
