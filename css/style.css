@@ -558,9 +558,3 @@ textarea {
         padding: 1rem;
     }
 }
-
-@media (max-width: 35em) {
-    body {
-        background-color:#1C425C;
-    }
-}
