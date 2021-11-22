@@ -82,7 +82,7 @@ p {
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 150px auto;
     grid-template-areas: 
@@ -396,7 +396,7 @@ p {
 @media (min-width: 35em) {
     .project-cards {
         perspective: 1000px;
-        margin: 6rem 0;
+        margin: 6rem 3rem;
     }
 
     .project-cards article:nth-child(even) {
